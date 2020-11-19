@@ -1,0 +1,10 @@
+--- config.def.h	2017-11-26 14:29:37.963786915 +0100
++++ config.def.h	2017-11-26 19:48:31.300096237 +0100
+@@ -6,6 +6,7 @@ static char *styledir       = "~/.surf/s
+ static char *certdir        = "~/.surf/certificates/";
+ static char *cachedir       = "~/.surf/cache/";
+ static char *cookiefile     = "~/.surf/cookies.txt";
++static char *historyfile    = "~/.surf/history.txt";
+ 
+ /* Webkit default features */
+ /* Highest priority value will be used.
